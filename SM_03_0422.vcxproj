@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>SM_03_0422</RootNamespace>
+    <ProjectName>SM_03_0422</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\SM_03_0422;C:\Arduino\libraries\SD\src;C:\Arduino\libraries\SD\src\utility;C:\Arduino\libraries\SDConfigFile;C:\Arduino\libraries\Ethernet\src;C:\Arduino\libraries\Ethernet\src\utility;C:\Arduino\hardware\arduino\avr\libraries\EEPROM\src;C:\Arduino\hardware\arduino\avr\libraries\Wire\src;C:\Arduino\hardware\arduino\avr\libraries\Wire\src\utility;C:\Arduino\libraries\TimeLib;C:\Arduino\libraries\DS1307RTC;C:\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;C:\Arduino\libraries\IRLibProtocols;C:\Arduino\hardware\arduino\avr\cores\arduino;C:\Arduino\hardware\arduino\avr\variants\mega;C:\Arduino\hardware\tools\avr\avr\include;C:\Arduino\hardware\tools\avr\avr\include\avr;C:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;C:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;C:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.SM_03_0422.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>__AVR_atmega2560__;__AVR_ATmega2560__;F_CPU=16000000L;ARDUINO=108010;ARDUINO_AVR_MEGA2560;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Actions.ino" />
+    <None Include="Debug_B.ino" />
+    <None Include="MakeIndexFileSD_B.ino" />
+    <None Include="Make_arduJS_AndSendToClient.ino" />
+    <None Include="Make_btstrpmnJS_AndSendToClient.ino" />
+    <None Include="Make_Index_AndSendToClient.ino" />
+    <None Include="Make_jqrmnJS_AndSendToClient.ino" />
+    <None Include="MemoryRel_B.ino" />
+    <None Include="ModalRel_B.ino" />
+    <None Include="readCfgsFromSD.ino" />
+    <None Include="SM_03_0422.ino">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="stringWorks.ino" />
+    <None Include="time.ino" />
+    <None Include="time_ntp.ino" />
+    <None Include="WebRel_B.ino" />
+    <None Include="_analogRead.ino" />
+    <None Include="_assingSwitchDefValues.ino" />
+    <None Include="_eepRomRel.ino" />
+    <None Include="_embedCSS.ino" />
+    <None Include="_i2cRel.ino" />
+    <None Include="_InfraRed_rel.ino" />
+    <None Include="_PresetRel.ino" />
+    <None Include="_responseGenericJSON.ino" />
+    <None Include="_SD.ino" />
+    <None Include="_SD_B.ino" />
+    <None Include="_SERVER.ino" />
+    <None Include="_SERVER.in_" />
+    <None Include="_serverAuthentificate.ino" />
+    <None Include="_SERVER_WorkWithRequest.ino" />
+    <None Include="_setupMAIN.ino" />
+    <None Include="_setupPOST.ino" />
+    <None Include="_setupPRE.ino" />
+    <None Include="_setupX.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ethernetRELVARS.h" />
+    <ClInclude Include="extenderRELVARS.h" />
+    <ClInclude Include="I2CMaster.h" />
+    <ClInclude Include="MemoryFree.h" />
+    <ClInclude Include="vars.h" />
+    <ClInclude Include="__vm\.SM_03_0422.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="I2CMaster.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties config.Debug.customdebug_mega_atmega2560_debugger_type="universal" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

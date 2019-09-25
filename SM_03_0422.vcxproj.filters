@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SM_03_0422.ino" />
+    <None Include="Actions.ino" />
+    <None Include="Debug_B.ino" />
+    <None Include="Make_arduJS_AndSendToClient.ino" />
+    <None Include="Make_btstrpmnJS_AndSendToClient.ino" />
+    <None Include="Make_Index_AndSendToClient.ino" />
+    <None Include="Make_jqrmnJS_AndSendToClient.ino" />
+    <None Include="MakeIndexFileSD_B.ino" />
+    <None Include="MemoryRel_B.ino" />
+    <None Include="ModalRel_B.ino" />
+    <None Include="readCfgsFromSD.ino" />
+    <None Include="stringWorks.ino" />
+    <None Include="time.ino" />
+    <None Include="time_ntp.ino" />
+    <None Include="WebRel_B.ino" />
+    <None Include="_analogRead.ino" />
+    <None Include="_assingSwitchDefValues.ino" />
+    <None Include="_eepRomRel.ino" />
+    <None Include="_embedCSS.ino" />
+    <None Include="_i2cRel.ino" />
+    <None Include="_InfraRed_rel.ino" />
+    <None Include="_PresetRel.ino" />
+    <None Include="_responseGenericJSON.ino" />
+    <None Include="_SD.ino" />
+    <None Include="_SD_B.ino" />
+    <None Include="_SERVER.in_" />
+    <None Include="_SERVER.ino" />
+    <None Include="_SERVER_WorkWithRequest.ino" />
+    <None Include="_serverAuthentificate.ino" />
+    <None Include="_setupMAIN.ino" />
+    <None Include="_setupPOST.ino" />
+    <None Include="_setupPRE.ino" />
+    <None Include="_setupX.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.SM_03_0422.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ethernetRELVARS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extenderRELVARS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I2CMaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryFree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="I2CMaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
